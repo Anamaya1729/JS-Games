@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded",()=>
         {
             cards[firstChoiceId].setAttribute("src","Images/back.png")
             cards[secondChoiceId].setAttribute("src","Images/back.png")
-            alert('You have clicked the same image!')
+            // alert('You have clicked the same image!')
         }
 
         else if (cardsChosen[0] === cardsChosen[1])
