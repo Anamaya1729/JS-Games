@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded",()=>
 
         else if (cardsChosen[0] === cardsChosen[1])
         {
-            alert("You found a match")
+            // alert("You found a match")
             cards[firstChoiceId].setAttribute("src","Images/white.png")
             cards[secondChoiceId].setAttribute("src","Images/white.png")
             cards[firstChoiceId].removeEventListener("click", flipcard); 
